@@ -1,2 +1,2 @@
 # STOMA-SENSE.
-Stoma Sense A smart application to track and care for your plants.
+Stoma Sense A smart website to track and care for your plants.
