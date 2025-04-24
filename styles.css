@@ -1,0 +1,50 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+}
+
+#splash-screen {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: fadeOut 3s ease 3s forwards;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+nav {
+  background: #3b5f3c;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+}
+
+@keyframes fadeOut {
+  to { opacity: 0; visibility: hidden; }
+}
